@@ -18,7 +18,7 @@ function array_sort($array, $on, $order=SORT_ASC) {$new_array = array(); $sortab
 <?php }?>
 			</span>
 		</div>
-		<div class="wdiscord-body mCustomScrollbar _mCS_1" style="height:<?php echo $data['height']?>px;">
+		<div class="wdiscord-body mCustomScrollbar" data-mcs-theme="minimal-dark" style="height:<?php echo $data['height']?>px;"> <!-- Pour choisir son theme de la barre de défillement aller sur http://manos.malihu.gr/repository/custom-scrollbar/demo/examples/scrollbar_themes_demo.html -->
 <?php foreach (array_sort($discord->channels, 'position', SORT_ASC) as $nom){?>
 			<!--affiche le nom du canal vocal-->
 			
