@@ -25,8 +25,8 @@ class w_discord extends Widget
 	public $link        = 'http://www.neofrag.com';
 	public $author      = 'Papy_Poc';
 	public $licence     = 'http://www.neofrag.com/license.html LGPLv3';
-	public $version     = '1.1';
-	public $nf_version  = 'Alpha 0.1.6';
+	public $version     = '2.0';
+	public $nf_version  = 'Alpha 0.2.1';
 	public $path        = __FILE__;
 	public $types       = array(
 		'index' => 'Aperçu du serveur'
