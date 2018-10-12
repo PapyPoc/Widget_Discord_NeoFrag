@@ -36,4 +36,4 @@ Exposez nous votre problème/question et nous ferons notre possible pour vous r�
 
 08/05/2017 - Ajout du réglage de la hauteur et modification de la barre de défillement vertical
 
-15/10/2018 - Mise à jour vers Neofrag 0.2.1
+15/10/2018 - Mise à jour vers Neofrag 0.2.1 
