@@ -73,4 +73,4 @@ function array_sort($array, $on, $order=SORT_ASC) {$new_array = array(); $sortab
 			</span>
 		</div>
 	 </div>
-</div>
+</div> 
