@@ -15,7 +15,7 @@ dans l'onglet "Widget" et cochez la case "Activer le widget"
 5. Lancez le LiveEditor NeoFrag et ajoutez le widget 	"Discord".
 Dans les options, renseignez:
 	- L'identifiant du serveur.
-	- L'identifiant d'invitation (ex: Https://discord.gg/AeBjA).
+	- L'identifiant d'invitation (ex: https://discord.gg/AeBjA).
 	- Le thème de couleur.
 	- La hauteur du Widget
 	
