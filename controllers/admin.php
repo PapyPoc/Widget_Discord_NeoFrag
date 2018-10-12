@@ -31,6 +31,6 @@ class w_discord_c_admin extends Controller_Widget
 }
 
 /*
-NeoFrag Alpha 0.1.3
+NeoFrag Alpha 0.2.1
 ./widgets/discord/controllers/admin.php
 */
