@@ -3,7 +3,6 @@
  * https://translate.neofr.ag
  * @author: Papy Poc
  */
-
 return [
 	'Discord'	=> 'Discord'
 	'member'	=> 'member connected'
