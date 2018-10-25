@@ -29,7 +29,6 @@
 #discord-widget strong {
 	font-weight:700
 }
-
 #discord-widget .wdiscord-logo {
 	background: url("/widgets/discord/images/logo.svg") 50% no-repeat;
 	width:124px;
@@ -256,21 +255,6 @@
 }
 #discord-widget .wdiscord-icon-deaf {
     background-image: url("/widgets/discord/images/deaf.svg");
-}
-#discord-widget ::-webkit-scrollbar {
-	width:10px
-}
-#discord-widget ::-webkit-scrollbar-thumb {
-	background-color:hsla(0,0%,100%,.1);
-	background-clip:padding-box;
-	border:3px solid transparent;
-	border-radius:5px
-}
-#discord-widget ::-webkit-scrollbar-track-piece {
-	background-color:transparent;
-	background-clip:padding-box;
-	border:3px solid transparent;
-	border-radius:5px
 }
 
 /* Theme light */

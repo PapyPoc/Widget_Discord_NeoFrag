@@ -1,37 +1,21 @@
-<?php if (!defined('NEOFRAG_CMS')) exit;
-/**************************************************************************
-Copyright © 2015 Michaël BILCOT & Jérémy VALENTIN
+<?php
+/******************************
+Copyright © 2018 Stéphane Morin
+******************************/
 
-This file is part of NeoFrag.
+namespace NF\Widgets\Discord\Controllers;
 
-NeoFrag is free software: you can redistribute it and/or modify
-it under the terms of the GNU Lesser General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+use NF\NeoFrag\Loadables\Controllers\Widget_Checker;
 
-NeoFrag is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU Lesser General Public License for more details.
-
-You should have received a copy of the GNU Lesser General Public License
-along with NeoFrag. If not, see <http://www.gnu.org/licenses/>.
-**************************************************************************/
-
-class w_discord_c_checker extends Controller_Widget
+class Checker extends Widget_Checker
 {
 	public function index($settings = [])
 	{
 		return [
 			'server_id'	=> $settings['server_id'],
-			'color'	=> $settings['color'],
-			'connect' => $settings['connect'],
-			'height' => $settings['height']
+			'color'		=> $settings['color'],
+			'connect' 	=> $settings['connect'],
+			'height' 	=> $settings['height']
 		];
 	}
 }
-
-/*
-NeoFrag Alpha 0.1.3
-./widgets/discord/controllers/checker.php
-*/
