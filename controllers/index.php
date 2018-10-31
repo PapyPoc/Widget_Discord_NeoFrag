@@ -15,7 +15,7 @@ class Index extends Controller_Widget
 		$this	->	css('discord')
 				->	js('jquery.mCustomScrollbar.min')
 				->	css('jquery.mCustomScrollbar.min');
-		
-		return $this->view('index', $settings);
+		return $this->panel()
+				->body($this->view('index', $settings));
 	}
 }
