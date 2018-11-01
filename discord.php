@@ -1,24 +1,27 @@
-<?php if (!defined('NEOFRAG_CMS')) exit;
-/**************************************************************************
-Copyright © 2018 Morin Stéphane
-**************************************************************************/
+<?php
+/**
+ * https://neofr.ag
+ * @author: Papy Poc <https://github.com/PapyPoc>
+ */
 
-class w_discord extends Widget
+namespace NF\Widgets\Discord;
+
+use NF\NeoFrag\Addons\Widget;
+
+class Discord extends Widget
 {
-	public $title       = 'Discord de Papy Poc';
-	public $description = 'Widget du Discord créer par Papy_Poc';
-	public $link        = 'http://www.neofrag.com';
-	public $author      = 'Papy_Poc';
-	public $licence     = 'http://www.neofrag.com/license.html LGPLv3';
-	public $version     = '2.0';
-	public $nf_version  = 'Alpha 0.2.1';
-	public $path        = __FILE__;
-	public $types       = array(
-		'index' => 'Aperçu du serveur'
-	);
+	protected function __info()
+	{
+		return [
+			'title'       => $this->lang('Discord'),
+			'description' => 'Affiche votre Discord',
+			'link'        => 'https://neofr.ag',
+			'author'      => 'Stéphane Morin',
+			'license'     => 'LGPLv3 <https://neofr.ag/license>',
+			'version'     => '2.0',
+			'depends'     => [
+				'neofrag' => 'Alpha 0.2'
+			]
+		];
+	}
 }
-
-/*
-NeoFrag Alpha 0.2.1
-./widgets/discord/discord.php
-*/

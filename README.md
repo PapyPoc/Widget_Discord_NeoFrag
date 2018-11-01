@@ -15,7 +15,7 @@ dans l'onglet "Widget" et cochez la case "Activer le widget"
 5. Lancez le LiveEditor NeoFrag et ajoutez le widget 	"Discord".
 Dans les options, renseignez:
 	- L'identifiant du serveur.
-	- L'identifiant d'invitation (ex: https://discord.gg/AeBjA).
+	- L'identifiant d'invitation (ex: Https://discord.gg/AeBjA).
 	- Le thème de couleur.
 	- La hauteur du Widget
 	
@@ -36,4 +36,4 @@ Exposez nous votre problème/question et nous ferons notre possible pour vous r�
 
 08/05/2017 - Ajout du réglage de la hauteur et modification de la barre de défillement vertical
 
-15/10/2018 - Mise à jour vers Neofrag 0.2.1 
+31/10/2018 - Mise à jour vers NeoFrag 0.2.1
