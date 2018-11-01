@@ -16,7 +16,6 @@ class Index extends Controller_Widget
 				->	js('jquery.mCustomScrollbar.min')
 				->	css('jquery.mCustomScrollbar.min');
 		return $this->panel()
-				->body()
-				->view('index', $settings);
+				->body($this->view('index', $settings));
 	}
 }
