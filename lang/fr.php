@@ -3,14 +3,13 @@
  * https://translate.neofr.ag
  * @author: Papy Poc
  */
-
 return [
 	'Discord'	=> 'Discord'
-	'member'	=> 'membre connecté'
-	'members'	=> 'membres connectés'
-	'ligne'		=> 'Membre en ligne:'
-	'connected'	=> 'Connexion'
-	'id_serveur'=> 'Identifiant du serveur (ID)'
+	'member'	=> 'membre connected'
+	'members'	=> 'membres connected'
+	'ligne'		=> 'Membre Online:'
+	'connected'	=> 'Connecter'
+	'id_serveur'=> 'ID du serveur'
 	'invite'	=> 'Invitation du serveur'
 	'options'	=> 'Options'
 	'color'		=> 'Couleur (dark ou light)'
