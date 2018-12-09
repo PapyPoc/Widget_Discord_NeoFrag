@@ -9,9 +9,9 @@ function array_sort($array, $on, $order=SORT_ASC) {$new_array = array(); $sortab
 			<span class="wdiscord-header-count">
 			<strong><?php echo count($discord->members);?></strong>
 <?php if (count($discord->members)<=1) {?>
-			<span><?php echo $this->lang('member'); ?></span>
+			<span><?php echo $this->lang('membre'); ?></span>
 <?php } else {?>
-			<span><?php echo $this->lang('members'); ?></span>
+			<span><?php echo $this->lang('membres'); ?></span>
 <?php }?>
 			</span>
 		</div>
@@ -54,7 +54,7 @@ function array_sort($array, $on, $order=SORT_ASC) {$new_array = array(); $sortab
 		<div class="wdiscord-footer">
 			<span class="wdiscord-footer-info"><?php echo $discord->name;?></span>
 <?php if ($this->user()){?>
-			<a title="Connexion" class="wdiscord-btn-connect" href="<?php echo $connect;?>" target="_blank"><?php echo $this->lang('connected'); ?></a>
+			<a title="Connexion" class="wdiscord-btn-connect" href="<?php echo $connect;?>" target="_blank"><?php echo $this->lang('Connecter'); ?></a>
 <?php } ?>
 			</span>
 		</div>
