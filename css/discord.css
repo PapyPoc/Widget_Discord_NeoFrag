@@ -276,6 +276,9 @@
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 	filter:alpha(opacity=70)
 }
+#discord-widget .wdiscord-theme-light .wdiscord-header .wdiscord-header-count {
+	color:#000
+}
 #discord-widget .wdiscord-theme-light .wdiscord-channel-name,#discord-widget .wdiscord-theme-light .wdiscord-online-members {
 	color:#8a8e94
 }
