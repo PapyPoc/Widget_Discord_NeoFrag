@@ -31,9 +31,10 @@
 }
 #discord-widget .wdiscord-logo {
 	background: url("/widgets/discord/images/logo.svg") 50% no-repeat;
-	width:30%;
+	color: #C42622;
+	width:40%;
 	height:34px;
-	background-size:80% auto;
+	background-size:100% auto;
 	-webkit-transition:opacity .25s ease-out;
 	transition:opacity .25s ease-out;
 }
@@ -66,7 +67,7 @@
 	-webkit-flex:1;
 	-ms-flex:1;
 	flex:1;
-	text-align:center
+	text-align:right
 }
 #discord-widget .wdiscord-footer {
 	box-shadow:0 -1px 18px rgba(0,0,0,.2),0 -1px 0 rgba(0,0,0,.2);
