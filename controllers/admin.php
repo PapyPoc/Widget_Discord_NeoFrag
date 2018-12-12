@@ -17,4 +17,4 @@ class Admin extends Controller_Widget
 		
 		return $this	->	view('admin', $settings);
 	}
-}
+} 
