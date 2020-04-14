@@ -14,7 +14,7 @@ class Admin extends Controller_Widget
 		$this	->	css('discord')
 				->	js('../js/jquery.mCustomScrollbar.min')
 				->	css('../js/jquery.mCustomScrollbar.min');
-		
-		return $this	->	view('admin', $settings);
+		return $this->panel()
+				->body($this->view('admin', $settings));
 	}
 } 
